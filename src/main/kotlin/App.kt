@@ -8,8 +8,8 @@ external class JSON {
 }
 
 @JsModule("pusher")
-external class Pusher(config: dynamic) {
-    fun trigger(channel: String, event: String, data: dynamic)
+external class Pusher(config: Any) {
+    fun trigger(channel: String, event: String, data: Any)
 }
 
 
