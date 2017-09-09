@@ -1,12 +1,6 @@
 
 external fun require(module: String): dynamic
 
-external class JSON {
-    companion object {
-        fun stringify(value: Any): String
-    }
-}
-
 @JsModule("pusher")
 external class Pusher(config: Any) {
     fun trigger(channel: String, event: String, data: Any)
