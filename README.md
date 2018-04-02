@@ -1,5 +1,5 @@
 # Realtime Counter (Kotlin Nodejs Server)
-This is a realtime server for broadcasting click events. It is implemented in Kotlin (compiled to Javascript) and uses Pusher for its realtime feature. You can find a client android application that responds to the realtime click events [here](https://github.com/perfectmak/kotlin-realtime-counter-pusher).
+This is a realtime server for broadcasting click events. It is implemented in Kotlin (compiled to Javascript) and uses Pusher for its realtime feature. You can find a client android application that responds to the realtime click events [here](https://github.com/perfectmak/kotlin-realtime-counter-pusher). Also, see [here](https://pusher.com/tutorials/counter-kotlin/) for a tutorial on how this project works.
 
 ## Getting Started
 
